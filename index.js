@@ -1,17 +1,14 @@
 import { useState } from "react";
 import { TouchableHighlight, StyleSheet, View } from "react-native";
 
-export default function CircleCheckBox({size = 20, onChangeValue, activateColor = "red", color = "red"}) {
-
-    const [activate, setActivate] = useState(false)
+export default function CircleCheckBox({size = 20, onChangeValue, activateColor = "red", color = "red", activate}) {
 
     let circleSize = (size * 50) / 100;
 
 
     const _click = () => {
         if(onChangeValue) {
-            setActivate(i => !i)
-            onChangeValue(activate)
+            onChangeValue(!activate)
         }
     }
 
