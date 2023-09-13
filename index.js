@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TouchableHighlight } from "react-native";
+import { TouchableHighlight, StyleSheet } from "react-native";
 
 export default function CircleCheckBox() {
     return (
@@ -8,3 +8,9 @@ export default function CircleCheckBox() {
         </TouchableHighlight>
     )
 }
+
+const style = StyleSheet.create({
+    container: {
+        
+    }
+})
