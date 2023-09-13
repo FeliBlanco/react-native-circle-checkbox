@@ -1,6 +1,6 @@
 {
   "name": "rn-circle-check-box",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Circle Checkbox for react native",
   "main": "index.js",
   "scripts": {
