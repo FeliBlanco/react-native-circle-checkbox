@@ -1,5 +1,5 @@
 {
-  "name": "react-native-circle-check-box",
+  "name": "rn-circle-check-box",
   "version": "1.0.0",
   "description": "Circle Checkbox for react native",
   "main": "index.js",
@@ -11,9 +11,13 @@
     "react",
     "checkbox"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeliBlanco/react-native-circle-check-box.git"
+  },
+  "url": "https://github.com/FeliBlanco/react-native-circle-check-box/issues",
   "author": "Felipe Blanco",
   "license": "ISC",
   "dependencies": {
-    "react-native": "^0.72.4"
   }
 }
